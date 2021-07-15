@@ -1,0 +1,221 @@
+html body{
+    margin:0;
+    padding:0; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #007765;
+    color: #FFFFFF;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 184px;
+    height: 45px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+.list-item {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.container1 {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.hero1 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('image\ \(1\).png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero__message1 {
+    /* font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #fff; */
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.the-problem, .introducing {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+ h1  {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 48px;
+    max-width: 1219px;
+} 
+
+.container2 {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.hero2 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero__message2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.intr-photo {
+    margin-right: 48px;
+    float: left;
+    padding-left: 55px;
+}
+
+.the-problem, .introducing {
+    max-width: 1219px;
+}
+
+.container-team {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1219px;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.main-container {
+    background-color: #EEEEEE;
+}
+
+.our-team {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+}
+
+.team-content > h3, .team-content > span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.pic {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.end {
+    background-color: #333333;
+    height: 176px;
+}
+
+.end-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 62px;
+} 
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin-bottom: -1px;
+}
+
+span {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 0px;
+}
